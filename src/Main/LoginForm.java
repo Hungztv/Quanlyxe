@@ -31,7 +31,7 @@ public class LoginForm extends JFrame {
                 String password = new String(passwordField.getPassword());
 
                
-                if (username.equals("admin") && password.equals("admin")) {
+                if (username.equals("admin") && password.equals("1")) {
                     JOptionPane.showMessageDialog(LoginForm.this, "Đăng nhập thành công!");
 
                    
